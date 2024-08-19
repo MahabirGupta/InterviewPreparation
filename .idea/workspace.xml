@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement the Fibonacci Sequence in the Recursion Algorithm">
-      <change afterPath="$PROJECT_DIR$/src/RecursionAlgorithms/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement the Post-Order Traversal in the Recursion Algorithm">
+      <change afterPath="$PROJECT_DIR$/src/RecursionAlgorithms/Permutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.Permutations">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RecursionAlgorithms.Factorial" />
       <module name="LearnStreams" />
@@ -74,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.InsertionSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.MergeSort" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.MergeSort" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAlgorithms.Permutations" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="PATTERN" value="RecursionAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.FibonacciSequence" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +171,39 @@
       <option name="project" value="LOCAL" />
       <updated>1724075506169</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implement the Factorial method in the Recursion Algorithm">
+      <option name="closed" value="true" />
+      <created>1724076260006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724076260006</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implement the Binary Tree Traversals in the Recursion Algorithm">
+      <option name="closed" value="true" />
+      <created>1724076527877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724076527877</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implement the Pre-Order Traversal in the Recursion Algorithm">
+      <option name="closed" value="true" />
+      <created>1724076755610</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724076755610</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implement the Post-Order Traversal in the Recursion Algorithm">
+      <option name="closed" value="true" />
+      <created>1724077850998</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724077850998</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +223,11 @@
     <MESSAGE value="Implement the Insertion Sort Sorting Algorithm" />
     <MESSAGE value="Implement the Quick Sort method in the Sorting Algorithm" />
     <MESSAGE value="Implement the Fibonacci Sequence in the Recursion Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement the Fibonacci Sequence in the Recursion Algorithm" />
+    <MESSAGE value="Implement the Factorial method in the Recursion Algorithm" />
+    <MESSAGE value="Implement the Binary Tree Traversals in the Recursion Algorithm" />
+    <MESSAGE value="Implement the Pre-Order Traversal in the Recursion Algorithm" />
+    <MESSAGE value="Implement the Post-Order Traversal in the Recursion Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement the Post-Order Traversal in the Recursion Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
