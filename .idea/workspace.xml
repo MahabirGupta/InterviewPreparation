@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement the Bubble Sort Sorting Algorithms">
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement the Selection Sort Sorting Algorithm">
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BubbleSort.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
+    "Application.InsertionSort.executor": "Debug",
+    "Application.SelectionSort.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -44,7 +46,7 @@
     "onboarding.tips.debug.path": "/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SearchingAlgorithms.BinarySearch" />
       <module name="LearnStreams" />
@@ -60,6 +62,19 @@
     </configuration>
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.BubbleSort" />
+      <module name="LearnStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.InsertionSort" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
@@ -97,20 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecializedDataStructures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpecializedDataStructures" />
-      <module name="LearnStreams" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.SpecializedDataStructures" />
       </list>
     </recent_temporary>
   </component>
@@ -131,12 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724034309925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implement the Selection Sort Sorting Algorithm">
+      <option name="closed" value="true" />
+      <created>1724037520382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724037520382</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement the Bubble Sort Sorting Algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement the Bubble Sort Sorting Algorithms" />
+    <MESSAGE value="Implement the Selection Sort Sorting Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement the Selection Sort Sorting Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -145,6 +162,16 @@
           <url>file://$PROJECT_DIR$/src/SortingAlgorithms/BubbleSort.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/InsertionSort.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
