@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement the RemoveDuplicate method using StringBuilder and Character class">
-      <change afterPath="$PROJECT_DIR$/src/StringManipulation/ArraySorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement sorting of Arrays using Built-in Sort (Arrays.sort)">
+      <change afterPath="$PROJECT_DIR$/src/StringManipulation/ArraySortingBubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArraySorting">
+  <component name="RunManager" selected="Application.ArraySortingBubbleSort">
     <configuration name="ArraySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringManipulation.ArraySorting" />
       <module name="LearnStreams" />
@@ -67,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsFrameWork.CollectionsExample" />
+    <configuration name="ArraySortingBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringManipulation.ArraySortingBubbleSort" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionsFrameWork.*" />
+          <option name="PATTERN" value="StringManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySortingBubbleSort" />
         <item itemvalue="Application.ArraySorting" />
         <item itemvalue="Application.PalindromeCheck" />
         <item itemvalue="Application.RemovingDuplicates" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.CollectionsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724123809528</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implement sorting of Arrays using Built-in Sort (Arrays.sort)">
+      <option name="closed" value="true" />
+      <created>1724162398209</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724162398209</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +277,8 @@
     <MESSAGE value="Use ArrayList, HashSet and HashMap in CollectionsExample" />
     <MESSAGE value="Implement the ReverseString method using StringBuilder class" />
     <MESSAGE value="Implement the RemoveDuplicate method using StringBuilder and Character class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement the RemoveDuplicate method using StringBuilder and Character class" />
+    <MESSAGE value="Implement sorting of Arrays using Built-in Sort (Arrays.sort)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement sorting of Arrays using Built-in Sort (Arrays.sort)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
