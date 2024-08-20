@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement sorting of Arrays using Bubble Sort">
-      <change afterPath="$PROJECT_DIR$/src/StringManipulation/ArraySearchingLinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement Array Searching using Linear Search">
+      <change afterPath="$PROJECT_DIR$/src/StringManipulation/ArraySearchingBinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,20 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArraySearchingLinearSearch">
+  <component name="RunManager" selected="Application.ArraySearchingBinarySearch">
+    <configuration name="ArraySearchingBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringManipulation.ArraySearchingBinarySearch" />
+      <module name="LearnStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArraySearchingLinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringManipulation.ArraySearchingLinearSearch" />
       <module name="LearnStreams" />
@@ -106,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovingDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringManipulation.RemovingDuplicates" />
-      <module name="LearnStreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringManipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySearchingBinarySearch" />
         <item itemvalue="Application.ArraySearchingLinearSearch" />
         <item itemvalue="Application.ArraySortingBubbleSort" />
         <item itemvalue="Application.ArraySorting" />
         <item itemvalue="Application.PalindromeCheck" />
-        <item itemvalue="Application.RemovingDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724162759031</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Implement Array Searching using Linear Search">
+      <option name="closed" value="true" />
+      <created>1724163176759</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724163176759</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +295,8 @@
     <MESSAGE value="Implement the RemoveDuplicate method using StringBuilder and Character class" />
     <MESSAGE value="Implement sorting of Arrays using Built-in Sort (Arrays.sort)" />
     <MESSAGE value="Implement sorting of Arrays using Bubble Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement sorting of Arrays using Bubble Sort" />
+    <MESSAGE value="Implement Array Searching using Linear Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Array Searching using Linear Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
