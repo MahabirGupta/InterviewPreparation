@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement Permutations in the Recursion Algorithm">
-      <change beforePath="$PROJECT_DIR$/src/CollectionsFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionsFrameWork/CollectionsFramework.java" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Use ArrayList, HashSet and HashMap in CollectionsExample">
+      <change afterPath="$PROJECT_DIR$/src/StringManipulation/StringManipulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +34,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BubbleSort.executor": "Run",
+    "Application.CollectionsExample.executor": "Run",
     "Application.CollectionsFramework.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
     "Application.MergeSort.executor": "Run",
     "Application.SelectionSort.executor": "Debug",
+    "Application.StringManipulation.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -47,7 +49,7 @@
     "onboarding.tips.debug.path": "/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollectionsExample">
+  <component name="RunManager" selected="Application.ReverseString">
     <configuration name="CollectionsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionsFrameWork.CollectionsExample" />
       <module name="LearnStreams" />
@@ -74,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursionAlgorithms.Factorial" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAlgorithms.Permutations" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursionAlgorithms.Permutations" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringManipulation.ReverseString" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RecursionAlgorithms.*" />
+          <option name="PATTERN" value="StringManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.CollectionsExample" />
         <item itemvalue="Application.CollectionsFramework" />
         <item itemvalue="Application.TowersOfHanoi" />
         <item itemvalue="Application.Permutations" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724078680831</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Use ArrayList, HashSet and HashMap in CollectionsExample">
+      <option name="closed" value="true" />
+      <created>1724117201276</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724117201276</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +247,8 @@
     <MESSAGE value="Implement the Pre-Order Traversal in the Recursion Algorithm" />
     <MESSAGE value="Implement the Post-Order Traversal in the Recursion Algorithm" />
     <MESSAGE value="Implement Permutations in the Recursion Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Permutations in the Recursion Algorithm" />
+    <MESSAGE value="Use ArrayList, HashSet and HashMap in CollectionsExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use ArrayList, HashSet and HashMap in CollectionsExample" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
