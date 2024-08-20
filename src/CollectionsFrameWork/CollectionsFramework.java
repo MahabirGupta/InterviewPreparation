@@ -1,3 +1,5 @@
+package CollectionsFrameWork;
+
 import java.util.*;
 
 public class CollectionsFramework {
