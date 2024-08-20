@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement the ReverseString method using StringBuilder class">
-      <change afterPath="$PROJECT_DIR$/src/StringManipulation/RemovingDuplicates.java" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement the RemoveDuplicate method using StringBuilder and Character class">
+      <change afterPath="$PROJECT_DIR$/src/StringManipulation/PalindromeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,8 @@
     "Application.CollectionsFramework.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
     "Application.MergeSort.executor": "Run",
+    "Application.PalindromeCheck.executor": "Debug",
+    "Application.RemovingDuplicates.executor": "Debug",
     "Application.ReverseString.executor": "Debug",
     "Application.SelectionSort.executor": "Debug",
     "Application.StringManipulation.executor": "Run",
@@ -50,7 +53,7 @@
     "onboarding.tips.debug.path": "/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemovingDuplicates">
+  <component name="RunManager" selected="Application.PalindromeCheck">
     <configuration name="CollectionsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionsFrameWork.CollectionsExample" />
       <module name="LearnStreams" />
@@ -70,6 +73,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CollectionsFrameWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringManipulation.PalindromeCheck" />
+      <module name="LearnStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TowersOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursionAlgorithms.TowersOfHanoi" />
-      <module name="LearnStreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RecursionAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeCheck" />
         <item itemvalue="Application.RemovingDuplicates" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.CollectionsExample" />
         <item itemvalue="Application.CollectionsFramework" />
-        <item itemvalue="Application.TowersOfHanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724122201013</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implement the RemoveDuplicate method using StringBuilder and Character class">
+      <option name="closed" value="true" />
+      <created>1724123809528</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724123809528</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +269,8 @@
     <MESSAGE value="Implement Permutations in the Recursion Algorithm" />
     <MESSAGE value="Use ArrayList, HashSet and HashMap in CollectionsExample" />
     <MESSAGE value="Implement the ReverseString method using StringBuilder class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement the ReverseString method using StringBuilder class" />
+    <MESSAGE value="Implement the RemoveDuplicate method using StringBuilder and Character class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement the RemoveDuplicate method using StringBuilder and Character class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -305,8 +317,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/StringManipulation/RemovingDuplicates.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringManipulation/PalindromeCheck.java</url>
           <line>9</line>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StringManipulation/RemovingDuplicates.java</url>
+          <line>13</line>
+          <properties class="StringManipulation.RemovingDuplicates" method="removeDuplicates">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
