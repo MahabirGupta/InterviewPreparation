@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement FibonacciSequence using Optimized Space Approach">
-      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/BubbleSort.java" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement SearchingAlgorithms using Binary Search">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/DynamicProgramming.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,22 +52,9 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.DynamicProgramming">
     <configuration name="ArraySearchingBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringManipulation.ArraySearchingBinarySearch" />
-      <module name="LearnStreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringManipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraySearchingLinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringManipulation.ArraySearchingLinearSearch" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
@@ -105,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.DynamicProgramming" />
+      <module name="LearnStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RecursionAlgorithms.FibonacciSequence" />
       <module name="LearnStreams" />
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicProgramming" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.FibonacciSequence" />
         <item itemvalue="Application.ArraySearchingBinarySearch" />
-        <item itemvalue="Application.ArraySearchingLinearSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +297,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724581782571</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Implement SortingAlgorithms using Bubble Sort">
+      <option name="closed" value="true" />
+      <created>1724582948301</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1724582948301</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Implement SearchingAlgorithms using Binary Search">
+      <option name="closed" value="true" />
+      <created>1724583253149</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1724583253149</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +348,9 @@
     <MESSAGE value="Implement FibonacciSequence using Memoization" />
     <MESSAGE value="Implement FibonacciSequence using iterativeApproach" />
     <MESSAGE value="Implement FibonacciSequence using Optimized Space Approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement FibonacciSequence using Optimized Space Approach" />
+    <MESSAGE value="Implement SortingAlgorithms using Bubble Sort" />
+    <MESSAGE value="Implement SearchingAlgorithms using Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement SearchingAlgorithms using Binary Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
