@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement Array Searching using Binary Search">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement FibonacciSequence using Memoization">
       <change beforePath="$PROJECT_DIR$/src/RecursionAlgorithms/FibonacciSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecursionAlgorithms/FibonacciSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -274,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724163652019</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Implement FibonacciSequence using Memoization">
+      <option name="closed" value="true" />
+      <created>1724467883387</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1724467883387</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +313,8 @@
     <MESSAGE value="Implement sorting of Arrays using Bubble Sort" />
     <MESSAGE value="Implement Array Searching using Linear Search" />
     <MESSAGE value="Implement Array Searching using Binary Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Array Searching using Binary Search" />
+    <MESSAGE value="Implement FibonacciSequence using Memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement FibonacciSequence using Memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
