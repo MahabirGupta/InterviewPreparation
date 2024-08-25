@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement FibonacciSequence using Memoization">
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement FibonacciSequence using iterativeApproach">
       <change beforePath="$PROJECT_DIR$/src/RecursionAlgorithms/FibonacciSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecursionAlgorithms/FibonacciSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724467883387</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Implement FibonacciSequence using iterativeApproach">
+      <option name="closed" value="true" />
+      <created>1724581189123</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724581189123</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +322,8 @@
     <MESSAGE value="Implement Array Searching using Linear Search" />
     <MESSAGE value="Implement Array Searching using Binary Search" />
     <MESSAGE value="Implement FibonacciSequence using Memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement FibonacciSequence using Memoization" />
+    <MESSAGE value="Implement FibonacciSequence using iterativeApproach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement FibonacciSequence using iterativeApproach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,6 +377,11 @@
           <url>file://$PROJECT_DIR$/src/StringManipulation/PalindromeCheck.java</url>
           <line>9</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RecursionAlgorithms/FibonacciSequence.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StringManipulation/RemovingDuplicates.java</url>

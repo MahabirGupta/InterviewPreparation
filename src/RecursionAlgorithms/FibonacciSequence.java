@@ -13,6 +13,9 @@ public class FibonacciSequence {
         int iterativeApproach = fibonacciIterativeApproach(7);
         System.out.println(iterativeApproach);
 
+        int optimiseSpaceApproach = fibonacciOptimizedSpaceApproach(9);
+        System.out.println(optimiseSpaceApproach);
+
 
     }
 
@@ -57,6 +60,19 @@ public class FibonacciSequence {
         return fib[n];
     }
 
+//    Optimized Space Approach
+public static int fibonacciOptimizedSpaceApproach(int n) {
+    if (n <= 1) {
+        return n;
+    }
+    int a = 0, b = 1;
+    for (int i = 2; i <= n; i++) {
+        int temp = b;
+        b = a + b;
+        a = temp;
+    }
+    return b;
+}
 
 
 }
