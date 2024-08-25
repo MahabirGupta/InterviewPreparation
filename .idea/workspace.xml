@@ -52,7 +52,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.BinarySearch">
     <configuration name="ArraySearchingBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringManipulation.ArraySearchingBinarySearch" />
       <module name="LearnStreams" />
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySortingBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringManipulation.ArraySortingBubbleSort" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchingAlgorithms.BinarySearch" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringManipulation.*" />
+          <option name="PATTERN" value="SearchingAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.FibonacciSequence" />
         <item itemvalue="Application.ArraySearchingBinarySearch" />
         <item itemvalue="Application.ArraySearchingLinearSearch" />
-        <item itemvalue="Application.ArraySortingBubbleSort" />
       </list>
     </recent_temporary>
   </component>
