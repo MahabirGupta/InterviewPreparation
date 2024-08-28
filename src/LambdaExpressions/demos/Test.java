@@ -1,11 +1,12 @@
 package LambdaExpressions.demos;
 
 //Create an interface
-@FunctionalInterface
 interface Cab{
 //        create an abstract method
     public void bookCab();
-        }
+
+
+}
 
 //        class Grab implements Cab{
 //
