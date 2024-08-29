@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using functional interface">
-      <change afterPath="$PROJECT_DIR$/src/LambdaExpressions/demos/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LambdaExpressions/demos/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpressions/demos/Test.java" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using functional interface with 2 parameters">
+      <change afterPath="$PROJECT_DIR$/src/LambdaExpressions/demos/Test3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,26 +52,13 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.Test3">
     <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GraphAlgorithms.BreadthFirstSearch" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GraphAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.DynamicProgramming" />
-      <module name="LearnStreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdaExpressions.demos.Test3" />
+      <module name="LearnStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LambdaExpressions.demos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.BreadthFirstSearch" />
         <item itemvalue="Application.GreedyAlgorithms" />
-        <item itemvalue="Application.DynamicProgramming" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724855433675</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Implement lambda expression using functional interface with 2 parameters">
+      <option name="closed" value="true" />
+      <created>1724857547668</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1724857547669</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,7 +368,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement the Selection Sort Sorting Algorithm" />
     <MESSAGE value="Implement the Insertion Sort Sorting Algorithm" />
     <MESSAGE value="Implement the Quick Sort method in the Sorting Algorithm" />
     <MESSAGE value="Implement the Fibonacci Sequence in the Recursion Algorithm" />
@@ -387,7 +392,8 @@
     <MESSAGE value="Implement GreedyAlgorithms using GreedyAlgorithms" />
     <MESSAGE value="Implement GraphAlgorithms using Breadth-First Search (BFS)" />
     <MESSAGE value="Implement lambda expression using functional interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using functional interface" />
+    <MESSAGE value="Implement lambda expression using functional interface with 2 parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using functional interface with 2 parameters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
