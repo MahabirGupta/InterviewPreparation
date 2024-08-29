@@ -14,5 +14,10 @@ public class Main {
         System.out.println(function.apply(3));
         System.out.println(function.apply(4));
 //        function.apply(5);
+        Function<String,Integer> stringIntegerFunction = string -> string.length();
+        System.out.println("The length of the string "  + " is " + stringIntegerFunction.apply("Anish"));
+        System.out.println("The length of the string "  + " is " + stringIntegerFunction.apply("Anishkaa"));
+        System.out.println("The length of the string "  + " is " + stringIntegerFunction.apply("Gaytri"));
+//        stringIntegerFunction.apply("Anish");
     }
 }
