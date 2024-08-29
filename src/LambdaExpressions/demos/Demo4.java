@@ -44,5 +44,12 @@ public class Demo4 {
                 System.out.println(num + " is an even number and is greater than 50 ");
             }
         }
+        System.out.println();
+        for (int num:array) {
+//            using or operator on 2 predicates
+            if (predicate1.or(predicate2).test(num)){
+                System.out.println(num + " is an even number or is greater than 50 ");
+            }
+        }
     }
 }
