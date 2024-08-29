@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if given element in the array is greater than 4 and print all those elements which is greater than 4">
-      <change afterPath="$PROJECT_DIR$/src/LambdaExpressions/demos/Demo2.java" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Predicate functional interface with 1 parameter of type ArrayList and 1 return type to check if employee object's salary is greater than 500 and employee object's experience is greater than 3 print name of employee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LambdaExpressions/demos/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpressions/demos/Demo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724929320537</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Implement lambda expression using Predicate functional interface with 1 parameter of type object and 1 return type to check if given employee object's salary is greater than 500 and employee object's experience is greater than 3 print name of employee">
+      <option name="closed" value="true" />
+      <created>1724931041418</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1724931041418</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,8 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement the Binary Tree Traversals in the Recursion Algorithm" />
-    <MESSAGE value="Implement the Pre-Order Traversal in the Recursion Algorithm" />
     <MESSAGE value="Implement the Post-Order Traversal in the Recursion Algorithm" />
     <MESSAGE value="Implement Permutations in the Recursion Algorithm" />
     <MESSAGE value="Use ArrayList, HashSet and HashMap in CollectionsExample" />
@@ -426,7 +432,9 @@
     <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if number is &gt; 4" />
     <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if given string is greater than 4" />
     <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if given element in the array is greater than 4 and print all those elements which is greater than 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if given element in the array is greater than 4 and print all those elements which is greater than 4" />
+    <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 parameter of type object and 1 return type to check if given employee object's salary is greater than 500 and employee object's experience is greater than 3 print name of employee" />
+    <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 parameter of type ArrayList and 1 return type to check if employee object's salary is greater than 500 and employee object's experience is greater than 3 print name of employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Predicate functional interface with 1 parameter of type ArrayList and 1 return type to check if employee object's salary is greater than 500 and employee object's experience is greater than 3 print name of employee" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
