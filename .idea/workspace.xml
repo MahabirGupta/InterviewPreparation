@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if number is &gt; 4">
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if given string is greater than 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LambdaExpressions/demos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpressions/demos/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -369,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724925830007</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if given string is greater than 4">
+      <option name="closed" value="true" />
+      <created>1724926012236</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1724926012236</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,7 +393,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement the Fibonacci Sequence in the Recursion Algorithm" />
     <MESSAGE value="Implement the Factorial method in the Recursion Algorithm" />
     <MESSAGE value="Implement the Binary Tree Traversals in the Recursion Algorithm" />
     <MESSAGE value="Implement the Pre-Order Traversal in the Recursion Algorithm" />
@@ -409,7 +417,8 @@
     <MESSAGE value="Implement lambda expression using functional interface with 2 parameters" />
     <MESSAGE value="Implement lambda expression using functional interface with 2 parameters and 1 return type" />
     <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if number is &gt; 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if number is &gt; 4" />
+    <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if given string is greater than 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Predicate functional interface with 1 parameter and 1 return type to check if given string is greater than 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

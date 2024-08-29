@@ -20,5 +20,36 @@ public class Main {
 //        predicate1.test("Anish");
         System.out.println(predicate1.test("Boy"));
 
+        System.out.println();
+
+//        Ex3: check if the array of the given string is greater than 4
+        String[] array = {"Apple","Boy","Car"};
+        for (int i = 0; i <array.length ; i++) {
+
+            Predicate<String> predicate2 = (string) -> (string.length() > 4);
+            System.out.println(predicate2.test(array[i]));
+
+        }
+        System.out.println();
+        //        Ex4: print array elements whose size is  greater than 4 in the given array
+        String names[] = {"David","Scott","Smith","John","Mary"};
+        for (int i = 0; i <names.length ; i++) {
+
+            Predicate<String> predicate2 = (string) -> (string.length() > 4);
+//            System.out.println(predicate2.test(names[i]));
+            if ((predicate2.test(names[i]))){
+                System.out.println(names[i]);
+            }
+
+        }
+        System.out.println();
+//        using for-each loop
+        for (String name:names){
+            Predicate<String> predicate2 = (string) -> (string.length() > 4);
+            if (predicate2.test(name)){
+                System.out.println(name);
+            }
+        }
+
     }
 }
