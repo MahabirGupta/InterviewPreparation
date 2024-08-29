@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Function functional interface with 1 Integer parameter and 1 int return type to find the square of the number">
-      <change beforePath="$PROJECT_DIR$/src/LambdaExpressions/functionFunctionalInterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpressions/functionFunctionalInterface/Main.java" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Function functional interface with 1 String parameter and 1 Integer return type to find the length of the String parameter">
+      <change afterPath="$PROJECT_DIR$/src/LambdaExpressions/functionFunctionalInterface/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,20 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LambdaExpressions.functionFunctionalInterface.Main">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdaExpressions.functionFunctionalInterface.Demo" />
+      <module name="LearnStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LambdaExpressions.functionFunctionalInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LambdaExpressions.predicateFunctionalInterface.Demo2" />
       <module name="LearnStreams" />
@@ -105,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExpressions.predicateFunctionalInterface.Main" />
-      <module name="LearnStreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LambdaExpressions.predicateFunctionalInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.LambdaExpressions.functionFunctionalInterface.Main" />
         <item itemvalue="Application.Demo4" />
         <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +441,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724942004796</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Implement lambda expression using Function functional interface with 1 String parameter and 1 Integer return type to find the length of the String parameter">
+      <option name="closed" value="true" />
+      <created>1724942514870</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1724942514870</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement sorting of Arrays using Built-in Sort (Arrays.sort)" />
     <MESSAGE value="Implement sorting of Arrays using Bubble Sort" />
     <MESSAGE value="Implement Array Searching using Linear Search" />
     <MESSAGE value="Implement Array Searching using Binary Search" />
@@ -481,7 +488,8 @@
     <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 Integer parameter and 1 return type to check if number is even or number is greater than 50 or not using or operator to join 2 predicates" />
     <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 Integer parameter and 1 return type to check if number is odd using not operator" />
     <MESSAGE value="Implement lambda expression using Function functional interface with 1 Integer parameter and 1 int return type to find the square of the number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Function functional interface with 1 Integer parameter and 1 int return type to find the square of the number" />
+    <MESSAGE value="Implement lambda expression using Function functional interface with 1 String parameter and 1 Integer return type to find the length of the String parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Function functional interface with 1 String parameter and 1 Integer return type to find the length of the String parameter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
