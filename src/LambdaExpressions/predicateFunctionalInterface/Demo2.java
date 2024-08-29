@@ -1,4 +1,4 @@
-package LambdaExpressions.demos;
+package LambdaExpressions.predicateFunctionalInterface;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;

@@ -1,4 +1,4 @@
-package LambdaExpressions.demos;
+package LambdaExpressions.predicateFunctionalInterface;
 
 //create a functional interface
 @FunctionalInterface

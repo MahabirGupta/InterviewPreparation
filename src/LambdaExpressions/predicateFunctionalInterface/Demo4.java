@@ -1,6 +1,5 @@
-package LambdaExpressions.demos;
+package LambdaExpressions.predicateFunctionalInterface;
 
-import java.util.Arrays;
 import java.util.function.Predicate;
 
 //3 ways to join Predicates – and, or, negate(negation)

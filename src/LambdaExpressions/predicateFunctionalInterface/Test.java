@@ -1,4 +1,4 @@
-package LambdaExpressions.demos;
+package LambdaExpressions.predicateFunctionalInterface;
 
 //Create an interface
 interface Cab{

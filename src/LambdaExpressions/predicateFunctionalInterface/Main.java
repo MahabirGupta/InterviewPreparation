@@ -1,4 +1,4 @@
-package LambdaExpressions.demos;
+package LambdaExpressions.predicateFunctionalInterface;
 
 //interface Predicate<Type>{
 //    public abstract boolean test(Type t); // the test() method will take one parameter as the argument of any type and return a boolean
