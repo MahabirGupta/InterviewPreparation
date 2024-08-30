@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Function functional interface with 1 String parameter and 1 Integer return type to find the length of the String parameter">
-      <change afterPath="$PROJECT_DIR$/src/LambdaExpressions/functionFunctionalInterface/Demo.java" afterDir="false" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Function functional interface with 1 object parameter and 1 Integer return type to return the integer salary">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LambdaExpressions/functionFunctionalInterface/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpressions/functionFunctionalInterface/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -449,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724942514870</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Implement lambda expression using Function functional interface with 1 object parameter and 1 Integer return type to return the integer salary">
+      <option name="closed" value="true" />
+      <created>1724943021910</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1724943021910</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement sorting of Arrays using Bubble Sort" />
     <MESSAGE value="Implement Array Searching using Linear Search" />
     <MESSAGE value="Implement Array Searching using Binary Search" />
     <MESSAGE value="Implement FibonacciSequence using Memoization" />
@@ -489,7 +497,8 @@
     <MESSAGE value="Implement lambda expression using Predicate functional interface with 1 Integer parameter and 1 return type to check if number is odd using not operator" />
     <MESSAGE value="Implement lambda expression using Function functional interface with 1 Integer parameter and 1 int return type to find the square of the number" />
     <MESSAGE value="Implement lambda expression using Function functional interface with 1 String parameter and 1 Integer return type to find the length of the String parameter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Function functional interface with 1 String parameter and 1 Integer return type to find the length of the String parameter" />
+    <MESSAGE value="Implement lambda expression using Function functional interface with 1 object parameter and 1 Integer return type to return the integer salary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Function functional interface with 1 object parameter and 1 Integer return type to return the integer salary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
