@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Function functional interface with 1 object parameter and 1 Integer return type to return the integer bonus&#10;Use the Predicate Functional interface to check if the bonus is &gt;2000 and print the employee details if true">
-      <change afterPath="$PROJECT_DIR$/src/LambdaExpressions/functionFunctionalInterface/Demo2.java" afterDir="false" />
-    </list>
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using Function functional interface and use andThen() and compose() for chaining" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,26 +50,13 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LambdaExpressions.functionFunctionalInterface.Demo2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LambdaExpressions.functionFunctionalInterface.Demo" />
       <module name="LearnStreams" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LambdaExpressions.functionFunctionalInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExpressions.predicateFunctionalInterface.Demo3" />
-      <module name="LearnStreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LambdaExpressions.predicateFunctionalInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdaExpressions.consumerFunctionalInterface.Main" />
+      <module name="LearnStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LambdaExpressions.consumerFunctionalInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LambdaExpressions.functionFunctionalInterface.Demo2" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.LambdaExpressions.functionFunctionalInterface.Main" />
         <item itemvalue="Application.Demo4" />
-        <item itemvalue="Application.Demo3" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725011700821</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Implement lambda expression using Function functional interface and use andThen() and compose() for chaining">
+      <option name="closed" value="true" />
+      <created>1725021525735</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1725021525735</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement Array Searching using Binary Search" />
     <MESSAGE value="Implement FibonacciSequence using Memoization" />
     <MESSAGE value="Implement FibonacciSequence using iterativeApproach" />
     <MESSAGE value="Implement FibonacciSequence using Optimized Space Approach" />
@@ -505,7 +510,8 @@
     <MESSAGE value="Implement lambda expression using Function functional interface with 1 String parameter and 1 Integer return type to find the length of the String parameter" />
     <MESSAGE value="Implement lambda expression using Function functional interface with 1 object parameter and 1 Integer return type to return the integer salary" />
     <MESSAGE value="Implement lambda expression using Function functional interface with 1 object parameter and 1 Integer return type to return the integer bonus&#10;Use the Predicate Functional interface to check if the bonus is &gt;2000 and print the employee details if true" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Function functional interface with 1 object parameter and 1 Integer return type to return the integer bonus&#10;Use the Predicate Functional interface to check if the bonus is &gt;2000 and print the employee details if true" />
+    <MESSAGE value="Implement lambda expression using Function functional interface and use andThen() and compose() for chaining" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using Function functional interface and use andThen() and compose() for chaining" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
