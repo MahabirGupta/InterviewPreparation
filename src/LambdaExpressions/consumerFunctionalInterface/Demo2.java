@@ -10,7 +10,6 @@ public class Demo2 {
         Consumer<String> consumer1 = string -> System.out.println(string + " has long legs");
         Consumer<String> consumer2 = string -> System.out.println(string + " is handsome");
 
-
 //        consumer.accept("Mahabir");
 //        consumer1.accept("Mahabir");
 //        consumer2.accept("Mahabir");
