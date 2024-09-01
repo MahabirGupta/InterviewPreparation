@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using  Consumer functional interface and use chaining of Consumers using andThen() method" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using  Supplier functional interface and use get() method to get date" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -503,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725025725511</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Implement lambda expression using  Supplier functional interface and use get() method to get date">
+      <option name="closed" value="true" />
+      <created>1725198762176</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1725198762176</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement SortingAlgorithms using Bubble Sort" />
     <MESSAGE value="Implement SearchingAlgorithms using Binary Search" />
     <MESSAGE value="Implement DynamicProgramming using Fibonacci" />
     <MESSAGE value="Implement GreedyAlgorithms using GreedyAlgorithms" />
@@ -543,7 +550,8 @@
     <MESSAGE value="Implement lambda expression using Consumer functional interface and accept() method to pass a parameter with no return value" />
     <MESSAGE value="Implement lambda expression using Functional, Predicate and Consumer functional interface" />
     <MESSAGE value="Implement lambda expression using  Consumer functional interface and use chaining of Consumers using andThen() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using  Consumer functional interface and use chaining of Consumers using andThen() method" />
+    <MESSAGE value="Implement lambda expression using  Supplier functional interface and use get() method to get date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using  Supplier functional interface and use get() method to get date" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
