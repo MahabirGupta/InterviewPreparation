@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement lambda expression using  Supplier functional interface and use get() method to get date" />
+    <list default="true" id="aad29bc8-d45a-4ff1-869d-eac901c9a35c" name="Changes" comment="Implement permutation of a input string and display all the permutations">
+      <change afterPath="$PROJECT_DIR$/src/CollectionsFrameWork/RearrangeDigitsOfInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,20 +53,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mahabirguptanew/Library/Mobile Documents/com~apple~CloudDocs/Java/Streams/LearnStreams/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringPermutation">
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExpressions.consumerFunctionalInterface.Demo1" />
-      <module name="LearnStreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LambdaExpressions.consumerFunctionalInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RearrangeDigitsOfInteger">
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LambdaExpressions.consumerFunctionalInterface.Demo2" />
       <module name="LearnStreams" />
@@ -103,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RearrangeDigitsOfInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsFrameWork.RearrangeDigitsOfInteger" />
+      <module name="LearnStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionsFrameWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RecursionAlgorithms.StringPermutation" />
       <module name="LearnStreams" />
@@ -118,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RearrangeDigitsOfInteger" />
         <item itemvalue="Application.StringPermutation" />
         <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.LambdaExpressions.supplierFunctionalInterface.Main" />
         <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.Demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -519,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725199019637</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Implement permutation of a input string and display all the permutations">
+      <option name="closed" value="true" />
+      <created>1725535112693</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1725535112693</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement SearchingAlgorithms using Binary Search" />
     <MESSAGE value="Implement DynamicProgramming using Fibonacci" />
     <MESSAGE value="Implement GreedyAlgorithms using GreedyAlgorithms" />
     <MESSAGE value="Implement GraphAlgorithms using Breadth-First Search (BFS)" />
@@ -559,7 +569,8 @@
     <MESSAGE value="Implement lambda expression using Functional, Predicate and Consumer functional interface" />
     <MESSAGE value="Implement lambda expression using  Consumer functional interface and use chaining of Consumers using andThen() method" />
     <MESSAGE value="Implement lambda expression using  Supplier functional interface and use get() method to get date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement lambda expression using  Supplier functional interface and use get() method to get date" />
+    <MESSAGE value="Implement permutation of a input string and display all the permutations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement permutation of a input string and display all the permutations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
